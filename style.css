@@ -9,8 +9,10 @@ body{
 .main-box{
     margin: auto;
     margin-top: 50px;
-    width: 60vw;
+    width: 50%;
+    min-width: 500px;
     height: 60vh;
+    min-height: 500px;
     border: 2px solid;
     padding: 5px;
     border-radius: 20px;
@@ -51,15 +53,18 @@ body{
     display: flex;
     flex-direction: column;
     margin: auto;
-    width: 90%;
+    text-align: center;
+    width: 70%;
     outline: 2px double;
     outline-offset: 10px;
     border-radius: 5px;
     padding: 10px;
 }
 .lottery-box p{
+   text-align: justify;
+   margin: auto;
    min-height:40px;
    border-radius: 10px;
-   font-size: 1.2em;
+   font-size: 1.5em;
    font-weight:inherit; 
 }
